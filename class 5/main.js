@@ -118,20 +118,20 @@ let isBilly = false
     
 // }
 
-function setupCounterFunction() {
-    let tick =0;
+// function setupCounterFunction() {
+//     let tick =0;
 
-    return function () {
-        tick++;
-        if (tick > 10) {
-            tick = 0;
-        }
-        console.log(tick);
-    };
-}
+//     return function () {
+//         tick++;
+//         if (tick > 10) {
+//             tick = 0;
+//         }
+//         console.log(tick);
+//     };
+// }
 
-const counterTick = setupCounterFunction();
+// const counterTick = setupCounterFunction();
 
-for (let index = 0; index < 30; index++) {
-    counterTick();
-} 
+// for (let index = 0; index < 30; index++) {
+//     counterTick();
+// } 
